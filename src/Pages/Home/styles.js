@@ -38,14 +38,25 @@ export const Container = styled.div`
     color: #ffffff;
   }
   .hand-icon {
-    animation: hi 1.5s ease-in-out infinite alternate;
+    animation: hi  1.5s ease-in-out infinite alternate;
+    
     margin-left: 5px;
   }
+  >img{
+    animation: pulse 1.5s ease-in-out infinite alternate;
+}
+  
   @keyframes hi {
     0% {
       transform: translate(-4%, -4%) rotate(-30deg);
     }
+    
   }
+  @keyframes pulse {
+    0% {
+      transform: scale(1.05);
+    }
+}
   @media(max-width: 900px) {
    width: auto;
   }
@@ -89,6 +100,7 @@ export const Award = styled.div`
   }
   img {
     margin-left: 2rem;
+    animation: pulse 1.5s ease-in-out infinite alternate;
   }
   div {
     margin: auto;
@@ -126,6 +138,7 @@ export const AwardDiv = styled.div`
    flex-direction: column;
    width: 500px;
    align-items: center;
+   margin-top: 100px;
   }
   
 `;
