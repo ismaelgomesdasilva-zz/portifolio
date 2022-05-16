@@ -108,7 +108,7 @@ export const Award = styled.div`
     color: #ffffff;
   }
   @media(max-width: 800px) {
-   width: 350px;
+   width: 330px;
   }
 `;
 export const AwardDiv = styled.div`
