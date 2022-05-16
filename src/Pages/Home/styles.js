@@ -85,7 +85,7 @@ export const Award = styled.div`
   transition: all 0.5s ease-in-out;
   &:hover {
     background-color: #70663a;
-    transform: scale(1.1);
+    transform: scale(1.07);
   }
   img {
     margin-left: 2rem;
