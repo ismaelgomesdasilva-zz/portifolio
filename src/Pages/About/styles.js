@@ -8,8 +8,8 @@ export const Container = styled.div`
   margin: 150px auto;
   margin-top: 300px;
 
-  img{
-      margin-bottom: 100px;
+  img {
+    margin-bottom: 100px;
   }
 `;
 export const Description = styled.div`
@@ -34,20 +34,22 @@ export const Description = styled.div`
     margin-bottom: 40px;
   }
   button {
+    width: 300px;
     height: 54px;
     left: 717px;
     top: 1470.04px;
     background: #ffb742;
     border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
   }
-  
 `;
 export const ContainerIframe = styled.div`
-
-display: flex;
+  display: flex;
   align-items: center;
   width: 1300px;
   margin: auto;
   gap: 100px;
- 
-`
+`;
