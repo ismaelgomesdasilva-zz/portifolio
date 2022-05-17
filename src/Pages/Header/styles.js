@@ -32,6 +32,9 @@ export const Container = styled.header`
         border: 2px solid #FFF;
     }
   }
+  @media(max-width: 1100px) {
+   width: 400px;
+  }
 `;
 export const Navlink = styled.div`
   display: flex;
@@ -51,5 +54,8 @@ export const Navlink = styled.div`
         color:#ffb742;
         
     }
+  }
+  @media(max-width: 1100px) {
+   a{display: none;}
   }
 `;
