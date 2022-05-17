@@ -8,7 +8,7 @@ export default function Header() {
             <Navlink>
 
             <a href='#'>Home</a>
-            <a href='#'>Apresentação</a>
+            <a href='#about'>Apresentação</a>
             <a href='#'>Habilidades</a>
             <a href='#'>Experiencias</a>
             
