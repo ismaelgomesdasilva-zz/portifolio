@@ -33,7 +33,7 @@ export const Container = styled.header`
     }
   }
   @media(max-width: 1100px) {
-   width: 400px;
+   width: 350px;
   }
 `;
 export const Navlink = styled.div`

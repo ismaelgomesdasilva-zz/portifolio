@@ -1,11 +1,11 @@
 import AboutPerfil from "../../Assets/about.png";
-import { Container, Description, ContainerIframe, Tag } from "./styles";
+import { Container, Description, ContainerIframe, Tag,ContainerPrincipal } from "./styles";
 
 export default function About() {
   return (
-    <>
+    <ContainerPrincipal>
       <Container id="#about">
-        <div>
+        <div className="image">
           <img src={AboutPerfil} />
         </div>
         <Description>
@@ -24,7 +24,7 @@ export default function About() {
         </Description>
       </Container>
       <ContainerIframe>
-        <div>
+        <div className="description">
           <Description>
             <Tag>Sobre Mim</Tag>
             <h1>Vídeo apresentação</h1>
@@ -49,6 +49,6 @@ export default function About() {
           ></iframe>
         </div>
       </ContainerIframe>
-    </>
+    </ContainerPrincipal>
   );
 }
