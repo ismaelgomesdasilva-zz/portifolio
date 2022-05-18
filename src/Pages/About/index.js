@@ -1,52 +1,54 @@
 import AboutPerfil from "../../Assets/about.png";
-import { Container, Description, ContainerIframe } from "./styles";
+import { Container, Description, ContainerIframe, Tag } from "./styles";
 
 export default function About() {
   return (
-      <>
-    <Container id='#about'>
-      <div>
-        <img src={AboutPerfil} />
-      </div>
-      <Description>
-        <h1>Sobre mim</h1>
-        <p>
-          is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently
-          with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum
-        </p>
-        <button>Quer me conhecer mais?</button>
-      </Description>
-    </Container>
-    <ContainerIframe>
-    <div>
-    <Description>
-        <h1>Video Apresentação</h1>
-        <p>
-          is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently
-          with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum
-        </p>
-        <button>Quer me conhecer mais?</button>
-      </Description>
-    </div>
-    <div>
-      <iframe width="600" height="315" src="https://www.youtube.com/embed/IU_gsbLqLpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </div>
-    </ContainerIframe>
+    <>
+      <Container id="#about">
+        <div>
+          <img src={AboutPerfil} />
+        </div>
+        <Description>
+          <Tag>Sobre Mim</Tag>
+          <h1>Resumo</h1>
+          <p>
+            Olá, bem-vindos! Me chamo Ismael tenho 21 anos, sou natural de
+            Recife e estou em São Paulo a mais ou menos 1 ano. Atualmente atuo
+            como desenvolvedor Freelancer, desenvolvedo sites para fins
+            didaticos ou para pequenos clientes. Tenho como objetivo ingressar
+            em uma empresa e adquirir e aplicar conhecimentos no dia a dia como
+            um desenvolvedor Front end.
+            <br /> <strong>Abaixo deixarei um video detalhado sobre mim</strong>
+          </p>
+          <button className="button">Saiba mais!</button>
+        </Description>
+      </Container>
+      <ContainerIframe>
+        <div>
+          <Description>
+            <Tag>Sobre Mim</Tag>
+            <h1>Vídeo apresentação</h1>
+            <p>
+              Essa apresentação é um pouco mais detalhada, aqui eu conto um
+              pouco mais sobre minha jornada na área de TI e como eu conheci a
+              parte de desenvolvimento. Pensei em trazer isso como algo novo em
+              um portifolio.
+            </p>
+            <button className="button">Quer me conhecer mais?</button>
+          </Description>
+        </div>
+        <div>
+          <iframe
+            width="600"
+            height="315"
+            src="https://www.youtube.com/embed/IU_gsbLqLpA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </ContainerIframe>
     </>
   );
 }

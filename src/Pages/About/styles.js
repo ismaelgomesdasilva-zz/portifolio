@@ -31,10 +31,10 @@ export const Description = styled.div`
     font-size: 16px;
     line-height: 30px;
     color: #d5d5d5;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
-  button {
-    width: 300px;
+  .button {
+    width: 150px;
     height: 54px;
     left: 717px;
     top: 1470.04px;
@@ -53,3 +53,20 @@ export const ContainerIframe = styled.div`
   margin: auto;
   gap: 100px;
 `;
+export const Tag = styled.button`
+background-color: #32363A;
+border: none;
+border-radius: 30px;
+margin-bottom:20px ;
+margin-left: -5px;
+width: 150px;
+height: 42px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+color: #FFB742;
+
+`
