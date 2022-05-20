@@ -62,6 +62,12 @@ export const Description = styled.div`
     font-size: 18px;
     line-height: 30px;
     margin: auto;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        transform: scale(0.9);
+        background-color: #fff;
+        border: 2px solid #FFF;
+    }
   }
   @media(max-width: 1200px) {
    width: 400px;
@@ -78,7 +84,7 @@ export const ContainerIframe = styled.div`
   display: flex;
   align-items: center;
   width: 1300px;
-  margin: auto;
+  margin:  100px auto;
   gap: 100px;
   .button{
     width: 240px;
